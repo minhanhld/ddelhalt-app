@@ -5,7 +5,7 @@ metadata:
   namespace: dev
 spec:
   rules:
-    - host: playground.app
+    - host: playground.app.com
       http:
         paths:
           - path: /
