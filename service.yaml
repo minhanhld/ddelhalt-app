@@ -6,7 +6,6 @@ metadata:
 spec:
   selector:
     app: playground
-  type: LoadBalancer
   ports:
     - port: 80
       targetPort: 8888
