@@ -5,9 +5,10 @@ metadata:
   namespace: dev
 spec:
   rules:
-    - http:
+    - host: playground.app
+      http:
         paths:
-          - path: /playground
+          - path: /
             pathType: Prefix
             backend:
               service:
